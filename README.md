@@ -2,15 +2,11 @@
 
 ## Binaries to UTF8 pointcodes
 
-```erlang
-simple_utf8:bin_to_cp(Bin).
-```
+    simple_utf8:bin_to_cp(Bin).
 
 ## UTF8 pointcodes to binaries
 
-```erlang
-simple_utf8:cp_to_bin(CodePoints).
-```
+    simple_utf8:cp_to_bin(CodePoints).
 
 ## Example
 1> Utf8Bin = simple_utf8:cp_to_bin("中國哲學書電子化計劃").
