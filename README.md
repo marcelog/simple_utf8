@@ -1,4 +1,8 @@
-# Simple UTF8 <-> binaries routines
+# Simple UTF8 to/from binaries routines
+
+## About
+This was done just for fun. Valid sequences include 1, 2, 3, 4, 5, and 6 bytes
+long.
 
 ## Binaries to UTF8 pointcodes
 
